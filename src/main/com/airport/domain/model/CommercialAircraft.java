@@ -9,6 +9,10 @@ public class CommercialAircraft extends Aircraft {
         this.airlineName = airlineName;
     }
 
+    public String getAirlineName() {
+        return airlineName;
+    }
+
     @Override
     public String toString() {
         return super.toString();
