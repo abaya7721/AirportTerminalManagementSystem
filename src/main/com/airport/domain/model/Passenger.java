@@ -17,6 +17,10 @@ public class Passenger {
         return passportNumber;
     }
 
+    public String getAircraftType() {
+        return "PrivateJet";
+    }
+
     @Override
     public String toString() {
         return "Passenger{" +

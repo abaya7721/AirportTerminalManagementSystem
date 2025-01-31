@@ -1,0 +1,8 @@
+flightNumber,departureDate,ticketPrice,passengerName,passportNumber,aircraftModel,aircraftType
+BB102,2024-06-15,349.99,John Doe,P67890,Airbus A320,Commercial
+CC103,2024-07-20,399.99,Jane Roe,P54321,Boeing 777,Commercial
+DD104,2024-08-25,299.99,Bob Brown,P98765,Embraer 190,Commercial
+EE105,2024-09-30,459.99,Emily White,P24680,Bombardier CRJ,Commercial
+FF106,2024-10-05,499.99,Charlie Green,P13579,Airbus A321,Commercial
+F1200,2025-03-15,499.99,Person1,T10000,Boeing 737,CommercialAircraft
+F1200,2025-03-15,499.99,Person2,T20000,Boeing 737,CommercialAircraft
