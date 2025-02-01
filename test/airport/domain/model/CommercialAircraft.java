@@ -13,6 +13,10 @@ public class CommercialAircraft extends Aircraft {
         return airlineName;
     }
 
+    public String getAircraftType() {
+        return "CommercialAircraft";
+    }
+
     @Override
     public String toString() {
         return super.toString();

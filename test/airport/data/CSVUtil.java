@@ -73,6 +73,7 @@ public class CSVUtil {
             for (String reservation : reservationData) {
                 Files.write(path, reservation.getBytes(), StandardOpenOption.APPEND);
             }
+
         } catch (Exception e) {
             throw new RuntimeException(e.getMessage());
         }

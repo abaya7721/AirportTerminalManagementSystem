@@ -1,4 +1,4 @@
-package com.airport.domain.model;
+package airport.domain.model;
 
 import java.util.Objects;
 
@@ -19,6 +19,10 @@ public class Passenger {
         return passportNumber;
     }
 
+    public String getAircraftType() {
+        return "PrivateJet";
+    }
+
     @Override
     public String toString() {
         return "Passenger{" +
@@ -30,8 +34,8 @@ public class Passenger {
     @Override
     public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;
-        Passenger passenger = (Passenger) o;
-        return Objects.equals(name, passenger.name) && Objects.equals(passportNumber, passenger.passportNumber);
+        com.airport.domain.model.Passenger passenger = (com.airport.domain.model.Passenger) o;
+        return Objects.equals(name, passenger.getName()) && Objects.equals(passportNumber, passenger.getPassportNumber());
     }
 
     @Override

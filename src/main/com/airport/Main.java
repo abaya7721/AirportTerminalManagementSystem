@@ -52,6 +52,9 @@ public class Main {
         csvUtility.loadReservationsFromCSV(reservationSystem);
         csvUtility.saveReservationsToCSV("F1200", flights, reservationSystem);
 
+        for(String line : reservationLines)
+            System.out.println(line);
 
+        System.out.println(reservationSystem.getPassengersForFlight("BB102"));
     }
 }

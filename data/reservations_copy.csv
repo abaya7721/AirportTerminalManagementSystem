@@ -1,0 +1,3 @@
+flightNumber,departureDate,ticketPrice,passengerName,passportNumber,aircraftModel,aircraftType
+F1200,2025-03-15,499.99,Person1,T10000,Boeing 737,CommercialAircraft
+F1200,2025-03-15,499.99,Person2,T20000,Boeing 737,CommercialAircraft
